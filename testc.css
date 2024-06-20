@@ -1,0 +1,41 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* 設置背景為黑色 */
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+    font-size: 18px;
+    
+  }
+  .card-container {
+      display: flex;
+      justify-content: center; /* 將卡片置中 */
+      flex-wrap: wrap; /* 使卡片能夠換行 */
+      gap: 1rem; /* 添加卡片之間的間距 */
+      width: 100%;
+      max-width: 60%;
+      margin: 2rem auto; /* 將容器置中並添加垂直間距 */
+    }
+    .card {
+      flex: 1 1 calc(33.333% - 1rem); /* 保證每個卡片佔據三分之一的寬度並有間距 */
+      max-width: calc(33.333% - 1rem); /* 防止卡片過寬 */
+    }
+    .carousel{
+      p{
+        color: #f0f0f0;
+        font-size: 18px
+        
+      }
+    }
+    
+  
+
+ 
+ 
+  
